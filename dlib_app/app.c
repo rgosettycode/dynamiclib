@@ -18,11 +18,11 @@ int main()
 
 	x = 5;
 	y = 10;
-	
+
 	z = sum(x, y);
 	printf("\nsum of x, y = %d\n", z);
 
-	for (i = 5; i < 15; i++) {
+	for (i = 0; i < 10; i++) {
 		printf("inc = %d\n", inc(5));
 		sleep(1);
 	}
