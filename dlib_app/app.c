@@ -25,6 +25,7 @@ int main(int argc, char *argv[])
 	}
 	z = sum(x, y);
 	printf("\nsum of x, y = %d\n", z);
+	printf("lib init val: %d\n", initval_get());
 	writefile(0);
 	for (i = 0; i < 10; i++) {
 		//printf("inc = %d\n", inc(incval));
